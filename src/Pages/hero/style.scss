@@ -1,0 +1,50 @@
+.fc .fc-daygrid-day-number {
+  font-size: 25px;
+  position: relative;
+  z-index: 4;
+  padding: 4px;
+}
+
+tr {
+  color: black;
+  font-size: 25px;
+  border: 1px solid black;
+}
+
+
+
+
+#fc-dom-2 {
+  font-size: 30px;
+  margin: 0;
+  color: #ea4b43;
+}
+
+.fc-button,
+.fc-today-button,
+.fc-button-primary {
+  width: 100px;
+  height: 40px;
+  font-size: 20px;
+}
+
+.fc {
+  padding: 20px 0;
+}
+
+.btn__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.add__event {
+  height: 50px;
+  width: 30%;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 20px;
+}

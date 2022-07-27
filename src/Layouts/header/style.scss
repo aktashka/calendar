@@ -1,0 +1,30 @@
+
+#header{
+  width: 100%;
+  background: #59CFDF;
+  padding: 20px 0;
+
+  .header{
+    &--logo{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      &__circle{
+        width: 35px;
+        height: 35px;
+    border-radius: 50%;
+        background: #EA4D3C;
+      }
+      &__title{
+        margin: 0 10px;
+        font-family: 'Montserrat',sans-serif;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 39px;
+        color: #FFFFFF;
+
+      }
+    }
+  }
+}
